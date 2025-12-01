@@ -29,5 +29,19 @@ nav{
 }
 
 form {
+    width: 500px;
+    margin: 0 auto;
     padding: 60px 10px 10px;
+    display: grid;
+    background-color: lightblue;
+}
+
+input#post-title, textarea#post-body {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
 }
